@@ -1,0 +1,6 @@
+# Ignore large datasets and models 
+data/*.csv 
+data/*.pkl 
+*.pcap 
+__pycache__/ 
+*.pyc 

@@ -1,0 +1,43 @@
+============================================================
+IDS MODEL COMPARISON REPORT
+============================================================
+
+Test Set Information:
+  Total Samples: 208,258
+  Normal Traffic: 150,892 (72.45%)
+  Attack Traffic: 57,366 (27.55%)
+
+DECISION TREE CLASSIFIER:
+------------------------------------------------------------
+  Accuracy    : 0.999990 (99.9990%)
+  Precision   : 0.999983 (99.9983%)
+  Recall      : 0.999983 (99.9983%)
+  F1          : 0.999983 (99.9983%)
+
+  Error Analysis:
+    False Positives: 1
+    False Negatives: 1
+    Total Errors:    2
+
+RANDOM FOREST CLASSIFIER:
+------------------------------------------------------------
+  Accuracy    : 0.999981 (99.9981%)
+  Precision   : 0.999983 (99.9983%)
+  Recall      : 0.999948 (99.9948%)
+  F1          : 0.999965 (99.9965%)
+
+  Error Analysis:
+    False Positives: 1
+    False Negatives: 3
+    Total Errors:    4
+
+============================================================
+COMPARISON & RECOMMENDATION:
+============================================================
+ WINNER: Decision Tree
+
+Advantages:
+  ✓ Higher F1-Score (0.999983 vs 0.999965)
+  ✓ Fewer errors (2 vs 4)
+
+RECOMMENDATION: Deploy Decision Tree for production IDS

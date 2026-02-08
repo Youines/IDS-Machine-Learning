@@ -1,0 +1,67 @@
+SELECTED FEATURES FOR INTRUSION DETECTION (33)
+================================================================================
+
+Importance threshold: > 0.01
+Dataset: (1041288, 79)
+Target column: 'is_attack'
+Label distribution: {0: np.int64(754459), 1: np.int64(286829)}
+
+TOP 20 FEATURES:
+--------------------------------------------------------------------------------
+53. Average Packet Size                           Importance: 0.0587 [SELECTED]
+ 7. Fwd Packet Length Max                         Importance: 0.0578 [SELECTED]
+64. Subflow Fwd Bytes                             Importance: 0.0535 [SELECTED]
+ 9. Fwd Packet Length Mean                        Importance: 0.0507 [SELECTED]
+47. PSH Flag Count                                Importance: 0.0496 [SELECTED]
+54. Avg Fwd Segment Size                          Importance: 0.0484 [SELECTED]
+42. Packet Length Std                             Importance: 0.0388 [SELECTED]
+ 5. Total Length of Fwd Packets                   Importance: 0.0372 [SELECTED]
+40. Max Packet Length                             Importance: 0.0359 [SELECTED]
+13. Bwd Packet Length Mean                        Importance: 0.0358 [SELECTED]
+67. Init_Win_bytes_forward                        Importance: 0.0340 [SELECTED]
+14. Bwd Packet Length Std                         Importance: 0.0312 [SELECTED]
+43. Packet Length Variance                        Importance: 0.0271 [SELECTED]
+41. Packet Length Mean                            Importance: 0.0263 [SELECTED]
+38. Bwd Packets/s                                 Importance: 0.0254 [SELECTED]
+11. Bwd Packet Length Max                         Importance: 0.0245 [SELECTED]
+48. ACK Flag Count                                Importance: 0.0231 [SELECTED]
+55. Avg Bwd Segment Size                          Importance: 0.0215 [SELECTED]
+ 6. Total Length of Bwd Packets                   Importance: 0.0203 [SELECTED]
+68. Init_Win_bytes_backward                       Importance: 0.0193 [SELECTED]
+
+
+ALL SELECTED FEATURES:
+--------------------------------------------------------------------------------
+  1. Average Packet Size                           Importance: 0.0587
+  2. Fwd Packet Length Max                         Importance: 0.0578
+  3. Subflow Fwd Bytes                             Importance: 0.0535
+  4. Fwd Packet Length Mean                        Importance: 0.0507
+  5. PSH Flag Count                                Importance: 0.0496
+  6. Avg Fwd Segment Size                          Importance: 0.0484
+  7. Packet Length Std                             Importance: 0.0388
+  8. Total Length of Fwd Packets                   Importance: 0.0372
+  9. Max Packet Length                             Importance: 0.0359
+ 10. Bwd Packet Length Mean                        Importance: 0.0358
+ 11. Init_Win_bytes_forward                        Importance: 0.0340
+ 12. Bwd Packet Length Std                         Importance: 0.0312
+ 13. Packet Length Variance                        Importance: 0.0271
+ 14. Packet Length Mean                            Importance: 0.0263
+ 15. Bwd Packets/s                                 Importance: 0.0254
+ 16. Bwd Packet Length Max                         Importance: 0.0245
+ 17. ACK Flag Count                                Importance: 0.0231
+ 18. Avg Bwd Segment Size                          Importance: 0.0215
+ 19. Total Length of Bwd Packets                   Importance: 0.0203
+ 20. Init_Win_bytes_backward                       Importance: 0.0193
+ 21. Total Fwd Packets                             Importance: 0.0149
+ 22. act_data_pkt_fwd                              Importance: 0.0149
+ 23. Fwd Packet Length Min                         Importance: 0.0142
+ 24. Fwd Header Length                             Importance: 0.0137
+ 25. Bwd Header Length                             Importance: 0.0136
+ 26. Fwd IAT Total                                 Importance: 0.0136
+ 27. Subflow Bwd Bytes                             Importance: 0.0136
+ 28. Fwd Header Length.1                           Importance: 0.0131
+ 29. Flow Bytes/s                                  Importance: 0.0123
+ 30. Flow IAT Max                                  Importance: 0.0121
+ 31. Subflow Fwd Packets                           Importance: 0.0113
+ 32. Bwd Packet Length Min                         Importance: 0.0103
+ 33. Fwd IAT Std                                   Importance: 0.0102
